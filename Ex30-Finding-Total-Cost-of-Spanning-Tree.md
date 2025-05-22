@@ -3,11 +3,22 @@
 ## AIM:
 To write a C Program to implement Prim's Algorithm for finding Total Cost of spanning tree.
 ## Algorithm
-1. 
-2. 
-3. 
-4.  
-5.   
+
+1.Read the number of vertices and the graph as an adjacency matrix.
+
+2.Replace all 0s with infinity to represent no direct edge.
+
+3.Initialize visited, distance, and from arrays.
+
+4.Mark the first vertex as visited and update distances from it.
+
+5.Repeat until n-1 edges are added to the spanning tree.
+
+6.Find the unvisited vertex with the smallest distance.
+
+7.Add the corresponding edge to the spanning tree and mark the vertex as visited.
+
+8.Update the distance and from arrays based on the newly added vertex
 
 ## Program:
 ```
