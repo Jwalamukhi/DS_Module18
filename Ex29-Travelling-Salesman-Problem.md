@@ -3,11 +3,26 @@
 ## AIM:
 To write a C Program to implement Travelling Salesman Problem for finding shortest path.
 ## Algorithm
-1. 
-2. 
-3. 
-4.  
-5.   
+
+1.Start
+
+2.Read the number of cities n and the adjacency matrix a representing the distances between cities.
+
+3.Initialize a visited array to track which cities have been visited.
+
+4.Start the process with city 0 and print its number
+
+5.In the mincost function, find the nearest unvisited city using the least function.
+
+6.If all cities are visited, return to the starting city (city 0) and finish.
+
+7.In the least function, find the unvisited city with the smallest cost from the current city, and update the cost.
+
+8.Print the minimum cost of the route after visiting all cities.
+
+9.End
+  
+  
 
 ## Program:
 ```
